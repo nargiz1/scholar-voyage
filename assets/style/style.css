@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body{
+    background-color: var(--main-bg-color);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color: white;
+}
+
+.section-divider{
+    margin: 0;
+    border: 1px solid var(--secondary-color);
+
+}
+
+.fw-bold{
+    font-family: Montserrat-bold;
+}
+
+.text-white{
+    color: white;
+}
+
+.fs-1{
+    font-size: 56px!important;
+}
+
+header .banner{
+    position: relative;
+}
+
+header .banner img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    object-position: top;
+    mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%,rgb(15,39,65) 100%);
+   -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%,rgb(15,39,65) 100%);
+}
+
+header .banner .banner-card{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    background-color: var(--secondary-color);
+    width: 30%;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 30px;
+}
+
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.program-card{
+    color: white;
+    border: 1px solid var(--secondary-color);
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    height: 430px;
+}
+
+.program-card img{
+    width: 100%;
+    object-fit: cover;
+    transition: all .3s ease;
+}
+
+.program-card .image-wrapper{
+    overflow: hidden;
+}
+
+.program-card img:hover{
+    transform: scale(1.5);
+}
+
+.program-card .program-card-text-wrapper{
+    padding: 15px 20px;
+}
+
+.program-card .program-card-text-wrapper a{
+    color: white;
+    transition: all .3s ease;
+}
+
+.program-card .program-card-text-wrapper a:hover{
+    font-size: large;
+}
+
+.professor-card{
+    padding: 20px 40px;
+    border: 1px solid var(--secondary-color);
+    display: flex;
+    color: white;
+    border-radius: 8px;
+}
+
+.professor-card img{
+    object-fit: cover;
+    width: 40%;
+    height: 230px;
+}
+
+.professor-card .professor-card-text{
+    padding-left: 25px;
+}
+
+.info-card{
+    border: 1px solid var(--secondary-color);
+    padding: 30px 60px;
+    color: white;
+    position: relative;
+    border-radius: 8px;
+}
+
+.info-card .img{
+    background-color: var(--secondary-color);
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 20px;
+    left: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.info-card .img i{
+    font-size: 35px;
+}
+
+#partners img{
+    object-fit: cover;
+    width: 80%;
+}
