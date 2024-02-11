@@ -36,6 +36,14 @@ footer{
     color: white;
 }
 
+.text-secondary{
+    color: #e9db86!important;
+}
+
+.text-main{
+    color: var(--secondary-color);
+}
+
 .fs-1{
     font-size: 56px!important;
 }
@@ -151,4 +159,67 @@ section{
 #partners img{
     object-fit: cover;
     width: 80%;
+}
+
+/* programs page */
+
+#programsPage .programs-btn{
+    background: transparent;
+    border: 7px solid var(--secondary-color);
+    color: white;
+    padding-left: 15px;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+#programsPage .programs-btn:hover{
+    color: white;
+}
+
+#programsPage .programs-btn span{
+    background-color: var(--secondary-color);
+    height: 70px;
+    width: 60px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+#programsPage .programs-card{
+    border: 1px solid var(--secondary-color);
+    border-radius: 8px;
+    height: 280px;
+    display: flex;
+    overflow: hidden;
+    color: white;
+}
+
+#programsPage .programs-card img{
+    width: 50%;
+    object-fit: cover;
+    height: 100%;
+}
+
+#programsPage .programs-card .text-section{
+    padding: 20px;
+}
+
+#programsPage .programs-card .text-section a{
+    color: white;
+    transition: all .3s ease;
+}
+
+#programsPage .programs-card .text-section a:hover{
+    font-size: large;
+}
+
+/* contacts page */
+
+#contact-page img{
+    width: 100%;
+    object-fit: cover;
 }
