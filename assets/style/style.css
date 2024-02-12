@@ -255,12 +255,13 @@ section{
 }
 
 .staff-member-card img{
+    width: 100%;
+    object-fit: cover;
     height: 330px;
     border-radius: 8px;
 }
 
 .swiper .swiper-wrapper .swiper-slide{
-    width: 50%;
     height: 300px;
     border-radius: 8px;
 }

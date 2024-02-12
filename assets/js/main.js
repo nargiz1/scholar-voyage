@@ -1,7 +1,9 @@
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     loop: true,
-    autoplay: true,
+    autoplay: {
+        delay: 1000
+    },
     slidesPerView: 2,
     // And if we need scrollbar
     scrollbar: {
