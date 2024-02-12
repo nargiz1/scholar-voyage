@@ -238,3 +238,29 @@ section{
     object-fit: cover;
     height: 400px;
 }
+
+.staff-member-card{
+    display: flex;
+}
+
+.staff-member-card-divider{
+    border: 5px solid var(--secondary-color);
+    opacity: 1;
+}
+
+.staff-member-card .img-wrapper{
+    padding: 25px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 8px;
+}
+
+.staff-member-card img{
+    height: 330px;
+    border-radius: 8px;
+}
+
+.swiper .swiper-wrapper .swiper-slide{
+    width: 50%;
+    height: 300px;
+    border-radius: 8px;
+}
